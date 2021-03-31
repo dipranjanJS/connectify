@@ -208,6 +208,9 @@ button:disabled {
     }
     .chat__sidebar {
         width: 110px;
-        height: 94vh;
+        height: 90vh;
+    }
+    .chat__main {
+        max-height: 84vh;
     }
 }
