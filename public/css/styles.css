@@ -191,3 +191,23 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+@media only screen and (max-width: 767px) {
+    .compose {
+        display: block;
+        padding: 10px;
+    }
+    .compose input {
+        width: 125px;
+        margin: 0;
+    }
+    .compose form {
+        margin-right: 0;
+    }
+    #locationBtn {
+        margin-top: 20px;
+    }
+    .chat__sidebar {
+        width: 110px;
+        height: 94vh;
+    }
+}
